@@ -42,7 +42,7 @@ function runScripts()
     runJS('exploit.js');
     runJS('malloc.js');
     runJS('rop.js');
-    runJS('offsets/4.03.js');
+    runJS('offsets/' + fw_str + '.js');
     window.sigsegv_handler = infloop_addr;
     runJS('sigsegv.js');
     runJS('c-code.js');
