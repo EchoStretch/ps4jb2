@@ -112,6 +112,7 @@ var getcounter_addr = libkernel_base + 0x34450;                         // sys_f
 var ffclock_setestimate_addr = libkernel_base + 0x33440;                // sys_ffclock_setestimate
 var ffclock_getestimate_addr = libkernel_base + 0x342D0;                // sys_ffclock_getestimate
 var clock_getcpuclockid2_addr = libkernel_base + 0x34CC0;               // sys_clock_getcpuclockid2
+var rfork_addr = libkernel_base + 0x33819;                              // sys_rfork
 var issetugid_addr = libkernel_base + 0x34880;                          // sys_issetugid
 var getdents_addr = libkernel_base + 0x35020;                           // sys_getdents
 var preadv_addr = libkernel_base + 0x34730;                             // sys_preadv
